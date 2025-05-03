@@ -34,12 +34,12 @@ public:
 
 
     // Add data:
-    bool insertRows(int row, int count, const QModelIndex &parent = QModelIndex()) override;
-    bool insertColumns(int column, int count, const QModelIndex &parent = QModelIndex()) override;
+//    bool insertRows(int row, int count, const QModelIndex &parent = QModelIndex()) override;
+//    bool insertColumns(int column, int count, const QModelIndex &parent = QModelIndex()) override;
 
-    // Remove data:
-    bool removeRows(int row, int count, const QModelIndex &parent = QModelIndex()) override;
-    bool removeColumns(int column, int count, const QModelIndex &parent = QModelIndex()) override;
+//    // Remove data:
+//    bool removeRows(int row, int count, const QModelIndex &parent = QModelIndex()) override;
+//    bool removeColumns(int column, int count, const QModelIndex &parent = QModelIndex()) override;
 
     void addFitness(const Fitness& fitness);
     void removeFitness(int row);

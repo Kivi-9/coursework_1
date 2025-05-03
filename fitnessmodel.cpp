@@ -162,30 +162,30 @@ void fitnessmodel::clear()
     endResetModel();
 }
 
-bool fitnessmodel::insertRows(int row, int count, const QModelIndex &parent)
-{
-    beginInsertRows(parent, row, row + count - 1);
-    // FIXME: Implement me!
-    endInsertRows();
-}
+//bool fitnessmodel::insertRows(int row, int count, const QModelIndex &parent)
+//{
+//    beginInsertRows(parent, row, row + count - 1);
+//    // FIXME: Implement me!
+//    endInsertRows();
+//}
 
-bool fitnessmodel::insertColumns(int column, int count, const QModelIndex &parent)
-{
-    beginInsertColumns(parent, column, column + count - 1);
-    // FIXME: Implement me!
-    endInsertColumns();
-}
+//bool fitnessmodel::insertColumns(int column, int count, const QModelIndex &parent)
+//{
+//    beginInsertColumns(parent, column, column + count - 1);
+//    // FIXME: Implement me!
+//    endInsertColumns();
+//}
 
-bool fitnessmodel::removeRows(int row, int count, const QModelIndex &parent)
-{
-    beginRemoveRows(parent, row, row + count - 1);
-    // FIXME: Implement me!
-    endRemoveRows();
-}
+//bool fitnessmodel::removeRows(int row, int count, const QModelIndex &parent)
+//{
+//    beginRemoveRows(parent, row, row + count - 1);
+//    // FIXME: Implement me!
+//    endRemoveRows();
+//}
 
-bool fitnessmodel::removeColumns(int column, int count, const QModelIndex &parent)
-{
-    beginRemoveColumns(parent, column, column + count - 1);
-    // FIXME: Implement me!
-    endRemoveColumns();
-}
+//bool fitnessmodel::removeColumns(int column, int count, const QModelIndex &parent)
+//{
+//    beginRemoveColumns(parent, column, column + count - 1);
+//    // FIXME: Implement me!
+//    endRemoveColumns();
+//}
