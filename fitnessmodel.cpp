@@ -27,6 +27,7 @@ QVariant fitnessmodel::headerData(int section, Qt::Orientation orientation, int 
                 return "Дата последнего обслуживания";
         }
     }
+    return QVariant();
 }
 
 int fitnessmodel::rowCount(const QModelIndex &parent) const
